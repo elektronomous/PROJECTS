@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    container_name: programmingPHP-app
+    restart: always
+    working_dir: /var/www/
+    volumes:
+      -../src:/var/www
+  nginx:
+    image: nginx:1.18.0
+    container_name: programmingPHP-nginx
+    restart: always
+    ports:
+      -"8080:80"
+    volumes:
+      -../src:/var/www
+      -./nginx:/etc/nginx/conf.d

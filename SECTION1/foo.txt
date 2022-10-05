@@ -1,0 +1,1 @@
+foo.txt after using file_put_contents on this /opt/lampp/htdocs/PROJECTS/SECTION1/workingWithFilesystem.php
