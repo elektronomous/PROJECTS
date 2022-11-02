@@ -23,7 +23,7 @@ class CollectionAgency implements DebtCollector, AnotherInterface /* 5~ implemen
         
         ~ using the first rules, we can force the CollectionAgency to have a constructor.
         
-        4# create a constructor on DebtColler.php and go back to this file to implement the constructor
+        4# create a constructor on DebtCollector.php and go back to this file to implement the constructor
            method
     */
     /* 4~ implement the constructor function */

@@ -4,7 +4,7 @@ namespace App\_12interfaceAndPolymorphism;
 
 /* 
     10~ create DebtCollectionService that accepts a class that implement DebtCollector interface as argument
-      ~ this class will expose the service provided by each of the class that implement
+      ~ this class will the service provided by each of the class that implement
         the DebtCollector interface.    
 */
 
